@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corona Guidelines</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Styling navigation bar -->
+		<style>
+
+			* {box-sizing:border-box;}
+			/*GOOGLE FONT*/
+			body {font-family: 'Playfair Display', serif;}
+			.header {text-align: center; color: white;background-color: black; font-size: 30px;}
+/*MAKINGOF NAVBAR*/
+		
+		a {margin-top: 0px; margin-bottom: 0px; border-radius: 15px 15px 15px 15px;}
+		li img {size: 20}
+		ul {list-style-type: none;margin: 5px;padding:0;overflow: hidden;background-color: white;}
+		li {float: left; padding: 5px;}
+		li a, .Dropbtn{display: flex;color: black;text-align: center;padding: 16px 20px;text-decoration: none;}
+		li a:hover, .Drop:hover{color: red; opacity:0.5;}
+		li.Drop{display: inline-block;}
+		.Dropdown {display: none;position: absolute;background-color: white;min-width: 160px;box-shadow: 0px 20px 100px 0px rgba(0,0,0,2);z-index: 1;}
+		.Dropdown a{color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
+		.Dropdown a:hover{background-color: grey;}
+		.Drop:hover .Dropdown{display: block;}
+
+		.Col {float: left;width: 33.33%; padding: 50px; text-align: center; font-size: 25px; cursor: pointer; color: black;}
+		.containerTab { padding: 20px; color: white;}
+/* Clear floats after the columns */
+		.row1:after {content: "";display: table;clear: both;}
+		
+		.Col2{float: left;width: 33.33%; padding: 0 10px;}
+		.row2{margin: 0 -5px;}
+		.row2:after{content: ""; display: none;clear: both;}
+		.card{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 16px;text-align: center;background-color: #033d47; color: ##033d47;}
+		@media screen and (max-width: 600px){.Col2 {width: 100%;display: block;margin-bottom: 20px;}}
+		.footer{text-align: center;background-color: black; color: white; padding: 10px; position: fixed;left: 0; bottom: 0; width: 100%;}
+		/*Sticking navbar*/
+		.sticky { position: fixed; top: 0; width: 100%;}
+		.sticky + .content { padding-top: 60px;}
+		
+		.tab{padding: 30px; border-radius: 50px 50px 50px 50px;}
+
+	.container{padding: 64px;}
+	.row{content: ""; display: table;clear: both;}
+	.button {border: none;color: white;padding: 14px 28px;font-size: 16px;cursor: pointer;background-color: #4CAF50;}
+	.column-66{float: left; width: 66.66666%;padding: 20px;}
+	.column-33{float: left;width: 33.3333%; padding: 20px;}
+	.xlarge-font{font-size: 64px; text-decoration: underline;  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;}
+  @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+	.large-font{font-size: 40px; text-decoration: underline;}
+	img {display: block;height: auto;max-width: 100%;}
+	@media screen and (max-width: 1000px) {
+  .column-66, .column-33 { width: 100%; text-align: center;}
+  img { margin: auto;}}
+  	.Col:hover{opacity: 0.7;}
+
+	</style>
+
+
+</head>
+
+
+
+<body> 
+
+	<!-- Making of navigation bar -->
+	<div class="header"> WE CARE FOR YOU AND HOPE YOU ARE SAFE!!!</div>
+	
+<!-- NAVIGATION BAR -->
+	<ul>
+		<li><img src="logo2.png" style="margin-top: 4px; padding: 5px;"></li>
+		<li><a href="file:///C:/Users/GAUTAM%20VIBHA%20SANJAY/Desktop/CoronaSafe/index.html" style="background-color: #b3b3ff;">HOME</a></li>
+		<li class="Drop"><a href="file:///C:/Users/GAUTAM%20VIBHA%20SANJAY/Desktop/CoronaSafe/ImpC.html" class="Dropbtn" style="background-color: #ffcce0">Important Contacts</a>
+			<div class="Dropdown">
+
+				<a href="In">All India</a>
+				<a href="Up">Uttar Prdesh</a>
+				<a href="Delhi">Delhi</a>
+			</div>
+		</li>
+		<li><a href="file:///C:/Users/GAUTAM%20VIBHA%20SANJAY/Desktop/CoronaSafe/Guide.html" style="background-color: #c6ffb3;">Guidelines</a></li>
+		
+		<li style="float: right;"><a href="file:///C:/Users/GAUTAM%20VIBHA%20SANJAY/Desktop/CoronaSafe/Contact.html" style="background-color: #ff4d4d;">ABOUT</a></li>
+		<li style="float: right;"><a href="file:///C:/Users/GAUTAM%20VIBHA%20SANJAY/Desktop/CoronaSafe/Story.html" style="background-color: #99d6ff">Your Story</a></li>
+	</ul>
+	<div class="header">The Symptoms and preventions against COVID-19!!!</div>
+
+	<!-- The different expanding buttons for different sections -->
+	<div class="row1">
+		<div class="Col" onclick="opentab('b1')" style="background-color: white;"><h1 style="text-decoration: underline;"><a class="tab" style="background-color: #ff66d9;">CORONA?</a></h1></div>
+		<div class="Col" onclick="opentab('b2')" style="background-color: white;"><h1 style="text-decoration: underline;"><a class="tab" style="background-color:  #ff944d;">SYMPTOMS</a></h1></div>
+		<div class="Col" onclick="opentab('b3')" style="background-color: white;"><h1 style="text-decoration: underline;"><a class="tab" style="background-color: #4dffdb;">PREVENTIONS</a></h1></div>
+	</div>
+
+	<div id="b1" class="containerTab" style="display: none; background-color: grey;">
+		<div class="header" style="font-size: 48px;">WTH is Corona?</div>
+			  <div class="container2">
+			  		<div class="row2">
+			  			<div class="col-75">
+			  				<h1 class="xlarge-font"></h1>
+			  			</div>
+			  		</div>
+			  </div>
+ 
+    </div>
+		
+
+	<div id="b2" class="containerTab" style="display: none; background-color: white;">
+		<div class="header" style="font-size: 48px;">Symptoms You Must Take SERIOUSLY!!!</div>>
+		<div class="row2">
+			<div class="Col2" >
+				<div class="card"><h1 class="xlarge-font"  style="text-decoration: underline;margin-bottom: 40px">COMMON</h1>
+				<p style="font-size: 36px">1. Fever</p>
+				<p style="font-size: 36px">2. Dry Cough</p>
+				<p style="font-size: 36px">3. Tiredness</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				</div>
+			</div>
+			<div class="Col2" >
+				<div class="card"><h1  class="xlarge-font" style="text-decoration: underline;margin-bottom: 100px">UNCOMMON</h1>
+				<p style="font-size: 36px">1. Aches and Pain</p>
+				<p style="font-size: 36px">2. Sore Throat</p>
+				<p style="font-size: 36px">3. Diarrohea</p>
+				<p style="font-size: 36px">4. Comjuctivitis</p>
+				<p style="font-size: 36px">5. Headache</p>
+				<p style="font-size: 36px">6. Loss Of Taste and Smell</p>
+				</div>
+			</div>
+			<div class="Col2">
+				<div class="card"><h1 class="xlarge-font"  style="text-decoration: underline; margin-bottom: 40px">SERIOUS</h1>
+				<p style="font-size: 36px">1. Difficulty in breathing</p>
+				<p style="font-size: 36px">2. Chest pain and pressure</p>
+				<p style="font-size: 36px">3. Loss of speech and movement</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				<p style="color: #033d47;">n</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- THE PREVENTION TAB -->
+	<div id="b3" class="containerTab" style="display: none; background-color: grey;">
+		<div class="header" style="font-size: 48px;"><a> The Preventions you required against COVID-19!!!</a></div>
+		<!-- <h1 style="font-size: 80px; color: blue; text-decoration: underline;">Prevention against COVID-19!!!</h1> -->
+		<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>AVOID</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>ALWAYS AVOID GOING AGAINST COVID-19 PREVENTIONs</b></h1>
+      <p><span style="font-size:36px">AVOID</span>smoking and other activities that weaken the lungs. Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</p>
+       <button class="button" style="background-color:red">Read More To Get More Information</button>
+    </div>
+    <div class="column-33">
+        <img src="Avoidit.gif" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<div class="container" >
+  <div class="row">
+    <div class="column-33">
+      <img src="clean.gif" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>CLEALINESS</b></h1>
+      <h1 class="large-font" style="color:red;"><b>KEEP CLEAN!</b></h1>
+      <p><span style="font-size:24px">KEEP</span> Yourself and your Sorroundings clean</p>
+     	<p>Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</p>
+     	 <button class="button" style="background-color:red">Read More To Get More Information</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>AWARE</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Be AWARE TOWARDS COVID-19 OR CORONAVIRUS!!! </b></h1>
+      <p><span style="font-size:36px">AWARE</span> youself towards COVID-19 informations. </p>
+      <p>Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people. </p>
+       <button class="button" style="background-color:red">Read More To Get More Information</button>
+    </div>
+    <div class="column-33">
+        <img src="Aware.gif" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<div class="container" >
+  <div class="row">
+    <div class="column-33">
+      <img src="Dis.gif" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>DISINFECTANTS</b></h1>
+      <h1 class="large-font" style="color:red;"><b>DISINFECTS YOURSELF!!!</b></h1>
+      <p><span style="font-size:24px">Disinfect</span> youself and your clothes regularly.</p>
+       <button class="button" style="background-color:red">Read More To Get More Information</button>
+    </div>
+  </div>
+</div>
+		
+	</div>
+
+<div class="footer"><a>THis is a practice website. Hope you liked it.</a></div>
+
+
+<!-- SCRIPTS FOR ABOVE HTML -->
+<script>
+	//STICKING NAVIGATION BAR
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("Nav");
+var sticky = Nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    Nav.classList.add("sticky")
+  } else {
+   Nav.classList.remove("sticky");
+  }
+}
+//MAKING CONTAINER EXPANDING
+function opentab(tabName) {  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+
+</script>
+
+
+</body>
+</html>
